@@ -1,0 +1,16 @@
+.intro-main {
+  flex-direction: column;
+  gap: 20px;
+
+  .heading {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #FFFFFF;
+  }
+
+  .description {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    max-width: 480px;
+  }
+}

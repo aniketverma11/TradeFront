@@ -1,0 +1,18 @@
+.custom-table {
+  .ant-table-thead {
+    .ant-table-cell {
+      font-size: 12px !important;
+      color: #8798AD;
+      font-weight: 500;
+
+      &::before {
+        background-color: transparent !important;
+      }
+    }
+  }
+
+  .ant-checkbox {
+    border: 2px solid #574CB1 !important;
+    background-color: #D9D9D9 !important;
+  }
+}

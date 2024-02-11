@@ -1,0 +1,19 @@
+@import "Sider";
+@import "Navbar";
+
+.unauth-layout-main {
+  background-color: #352E6B;
+  min-height: 100vh;
+  padding: 40px;
+  flex-direction: column;
+}
+
+.auth-layout-main {
+  background-color: #F4F6FC;
+  overflow-y: auto;
+
+  .right-main {
+    flex-direction: column;
+    padding-bottom: 15px;
+  }
+}

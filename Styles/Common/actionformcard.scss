@@ -1,0 +1,22 @@
+.action-form-card-main {
+  border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background: #FFF;
+  height: 100%;
+  padding: 47px 50px;
+
+  .links-container {
+    color: #8798AD;
+    letter-spacing: -0.16px;
+    font-size: 1rem;
+    text-align: center;
+    flex-direction: column;
+    gap: 10px;
+
+    .link {
+      color: #574CB1;
+      text-decoration: none;
+      font-weight: 600;
+    }
+  }
+}

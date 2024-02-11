@@ -1,0 +1,55 @@
+.custom-calendar {
+  border-radius: 14px;
+  padding: 0 10px;
+
+  .calendar-header-main {
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 1rem;
+    color: rgba(135, 152, 173, 1);
+    padding: 10px 15px;
+    border-bottom: 1px solid rgba(135, 152, 173, 0.2);
+
+    .month-main, .year-main {
+      gap: 13px;
+
+      .right-arrow {
+        transform: rotateY(180deg);
+      }
+
+      .up-arrow {
+        transform: rotate(90deg);
+      }
+
+      .down-arrow {
+        transform: rotate(-90deg);
+      }
+    }
+  }
+
+  .ant-picker-content {
+    border-collapse: separate !important;
+
+    thead {
+      th {
+        border: 1px solid rgba(135, 152, 173, 0.2);
+        text-align: center;
+        padding: 15px !important;
+        color: rgba(135, 152, 173, 1);
+        border-radius: 4px !important;
+        margin: 0 4px;
+      }
+    }
+
+    .ant-picker-cell {
+      border-radius: 4px;
+      border: 1px solid rgba(0, 0, 0, 0.10);
+      background: #FFF;
+
+      .ant-picker-cell-inner {
+        border-top: none !important;
+        height: 115px;
+      }
+    }
+  }
+}

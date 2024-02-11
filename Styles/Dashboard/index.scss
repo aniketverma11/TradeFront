@@ -1,0 +1,20 @@
+.dashboard-main {
+  .data-main {
+    padding: 0 14px;
+  }
+  .content-card {
+    border-radius: 14px;
+    background: #FFF;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.08);
+    height: 50%;
+    padding: 1rem;
+    flex-direction: column;
+
+    .content {
+      margin-top: 15px;
+    }
+  }
+  .calendar-main {
+    padding-right: 10px;
+  }
+}

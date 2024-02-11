@@ -1,0 +1,18 @@
+.data-absent-card-main {
+  border-radius: 14px;
+  border: 1px solid rgba(222, 222, 222, 0.70);
+  background: #FFF;
+  flex-direction: column;
+  gap: 7px;
+
+  .primary-heading {
+    color: #8798AD;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .secondary-heading {
+    color: rgba(135, 152, 173, 0.90);
+    font-size: 13px;
+  }
+}

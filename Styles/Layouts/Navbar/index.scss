@@ -1,0 +1,56 @@
+.navbar-main {
+  justify-content: flex-end;
+  padding: 10px 20px 10px 0;
+
+  .content-main {
+    gap: 19px;
+
+    .utility-main {
+      border-radius: 14px;
+      border: 1px solid #DEDEDE;
+      background: #FFF;
+
+      .tags-container {
+        gap: 10px;
+        color: #8798AD;
+        padding: 7px;
+
+        .tag {
+          border-radius: 8px;
+          border: 1px solid #8798AD;
+          padding: 7px 24px;
+        }
+      }
+
+      .add-tag {
+        gap: 3px;
+        border: none;
+        border-left: 1px solid #DEDEDE;
+        background: transparent;
+        border-radius: 0;
+      }
+    }
+
+    .add-trade-btn {
+      padding: 5px 30px 5px 30px !important;
+    }
+
+    .profile-main {
+      gap: 4px;
+
+      .profile-img-main {
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 1px solid #DEDEDE;
+      }
+
+      .profile-select {
+        .ant-select-selection-item {
+          padding-inline-end: 25px !important;
+        }
+      }
+    }
+  }
+}

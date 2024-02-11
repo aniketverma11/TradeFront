@@ -1,0 +1,29 @@
+.login-form-main {
+  .form-heading {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .form-label {
+    label {
+      color: rgba(103, 103, 103, 0.60) !important;
+    }
+  }
+
+  .privacy-policy-checkbox {
+    .ant-checkbox-wrapper {
+      .terms-and-condition {
+        font-weight: 600;
+        color: #574CB1;
+      }
+    }
+  }
+
+  .ant-checkbox {
+    border: 3px solid #574CB1;
+  }
+
+  .terms-of-use {
+    color: #2E384D;
+  }
+}

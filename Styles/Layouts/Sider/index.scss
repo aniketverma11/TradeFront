@@ -1,0 +1,37 @@
+.sider-main {
+  flex-direction: column;
+  padding: 20px 0;
+  box-shadow: 4px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  background-color: #FFFFFF;
+
+  .icon-main {
+    .trade-ryt-icon {
+      height: 37px;
+      width: 157px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .sider-item {
+    padding-left: 42px;
+    gap: 12px;
+    color: #0D163A;
+    font-size: 1rem;
+
+    svg {
+      height: 25px;
+      width: 25px;
+    }
+  }
+
+  .content-main {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-main {
+    margin-top: auto;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
